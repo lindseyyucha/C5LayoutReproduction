@@ -1,42 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 14px; /* Adjust font size as needed */
-  }
-  
-  header {
-    background-color: #ff6600;
-    color: #000; /* Black text color */
-    padding: 10px;
-  }
-  
-  h1 {
-    margin: 0;
-    font-size: 20px; /* Smaller font size */
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  td {
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: rgb(242, 242, 242)
-  }
-  
-  
-  tbody td {
-    color: #666; 
-    font-size: 12px; 
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.header{
+  background-color: #ff6600;
+  color: #000;
+  padding: 10px;
+ 
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+h2 {
+  margin: 2px;
+  font-size: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+background-color: #f5f5dc;
+ padding: 10px; 
+margin-top: -20px;
+}
+
+td {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(242, 242, 242);
+}
+
+tbody td {
+  color: #666;
+  font-size: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+ margin-top: -15px;
+}
+
+.info p {
+  margin-right: 10px;
+}
+
+td .content {
+  display: flex;
+  align-items: center; 
+}
