@@ -2,17 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 14px; /* Adjust font size as needed */
   }
   
   header {
     background-color: #ff6600;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    color: #000; /* Black text color */
+    padding: 10px;
   }
   
   h1 {
     margin: 0;
+    font-size: 20px; /* Smaller font size */
   }
   
   main {
@@ -35,17 +36,11 @@ body {
   }
   
   a {
-    color: #0066cc;
     text-decoration: none;
   }
   
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  footer {
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
+  tbody td {
+    color: #666; 
+    font-size: 12px; 
   }
   
